@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="javascript.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+  <div class="login-page">
+    <img src="logo.png" alt="logo">
+    <a href="login_register.html">Login/Register</a> 
+  </div>
+    <div class="topnav" id="myTopnav">
+        <a href="/index.html" >Homepage</a>
+        <a href="service.html">Service</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="about_us.html">About</a>
+        <a href="http://eepurl.com/ipAJWk">Booking</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form action="contact" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Enter your email" required>
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+          <input type="submit" value="Submit">
+        </form>
+        <div class="details-container">
+        <div class="openinghrs">
+        <p>Opening Hours:</p>
+	    <ul>
+		    <li>Monday: 9am-5pm</li>
+        <li>Tuesday: 9am-5pm</li>
+        <li>Wednesday: 9am-5pm</li>
+        <li>Thursday: 9am-5pm</li>
+        <li>Friday: 9am-5pm</li>
+		    <li>Saturday: 10am-2pm</li>
+		    <li>Sunday: Closed</li>
+	    </ul>
+    </div>
+    <div class="contact-details">
+      <p>Contact us</p>
+      <ul>
+      <li>Phone: 0123456789</li>
+      <li>Email: info@dignanscatering.com</li>
+      <li>Address: 123 High Street, Edinburgh, EH1 1YY</li>
+      </ul>
+    </div>
+  </div>
+</div>
+  <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35829.773471575754!2d-4.341433832188564!3d55.85640556928433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4888461faf881e7f%3A0xe8c65676e959338c!2sGlasgow%20Clyde%20College%20-%20Cardonald%20Campus!5e0!3m2!1sen!2suk!4v1681818061951!5m2!1sen!2suk"></iframe>
+        </div>
+</body>
+</html>

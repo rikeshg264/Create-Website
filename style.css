@@ -1,0 +1,439 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+  background-size: cover;
+  margin: 0 ;
+  }
+
+.image-background
+{
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+
+/* Navigation */
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.login-page
+{
+  width: 100%;
+  background-color: #fff;
+}
+
+.login-page img
+{
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+  width: 200px;
+}
+
+.login-page a
+{
+  background-color: #fff;
+  text-decoration: none;
+  color: #040404;
+  float: right;
+  margin-top: 2%;
+  margin-right: 4%;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: orange;
+  border-radius: 12px;
+}
+
+.login-page a:hover
+{
+  background-color: white;
+  border: 1px solid orange;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #040404;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #1c68f4;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1c68f4;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Login/Register Page */
+.login
+{
+  background-color: #6492ee;
+  width: 25%;
+  height: 40vh;
+  position: absolute;
+  right: 20%;
+  text-align: center;
+  top: 25%;
+}
+
+.register .names input[type=text]
+{
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.register .names input
+{
+  width: 33%;
+  height: 3vh;
+}
+
+.register .names label
+{
+  float: left;
+}
+
+label[for=fname]
+{
+  margin-left: 13%;
+}
+
+label[for=lname]
+{
+  margin-left: 20%;
+}
+
+.register
+{
+  background-color: #6492ee;
+  width: 25%;
+  height: 50vh;
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  top: 25%;
+}
+
+.register .other-details input[type=text]
+{
+  height: 3vh;
+  width: 74%;
+}
+
+.register .other-details label
+{
+  margin-top: 5%;
+}
+
+.register input[type=button]
+{
+  margin-top: 5%;
+  height: 4vh;
+  width: 20%;
+}
+
+.login input[type=button]
+{
+  margin-top: 5%;
+  height: 4vh;
+  width: 20%;
+}
+
+.login input[type=text]
+{
+  height: 3vh;
+  width: 74%;
+}
+
+
+/* Galley-page */
+.gallery-container {
+  margin-top: 1%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.gallery-container img {
+  max-width: 100%;
+  height: 35vh;
+}
+
+.gallery-container img:hover
+{
+  border: 1px solid blue;
+}
+
+
+@media screen and (max-width: 750px) {
+  td {
+      width: 50%;
+      padding: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  td {
+      width: 100%;
+  }
+}
+
+
+/* Contact page */
+.contact-container form {
+  float: left;
+  width: 40%;
+  padding: 20px;
+  padding-right: 4%;
+  background-color: #6492ee;
+}
+
+.details-container {
+  float: right;
+  width: 50%;
+  margin-top: 3%;
+}
+
+.openinghrs
+{
+  float: right;
+  margin-right: 5%;
+  background-color: #6492ee;
+  padding-right: 2%;
+}
+
+.details-container p
+{
+  text-align: center;
+}
+
+.contact-details
+{
+  float: left;
+  background-color: #6492ee;
+  padding-right: 2%;
+  padding-bottom: 11.5%;
+}
+
+.contact-container h2
+{
+  text-align: center;
+  background-color: white;
+  padding: 1%;
+}
+
+.contact-details ul
+{
+list-style-type: none;
+}
+
+.contact-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-container input[type="text"], textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-container input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.map iframe
+{
+  float: right;
+  width: 50%;
+  height: 40vh;
+  margin-right: 3%;
+  margin-top: 3%;
+  border: 1px solid black;
+}
+
+/* service page */
+
+
+.service img
+{
+  margin-left: 2%;
+  width: 20%;
+  height: auto;
+  float: left;
+}
+
+.services-container
+{
+  text-align: center;
+  background-color: antiquewhite;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  padding-top: 1%;
+}
+.service
+{
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  padding: 1%;
+  background-color: #6492ee;
+}
+
+.service-description
+{
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* About us page */
+.about-container
+{
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 1%;
+  margin-top: 1%;
+}
+
+.about-container img
+{
+  width: 70%;
+  height: 50vh;
+}
+
+.about-container video
+{
+  width:70%;
+  height: 240px;
+}
+/* Homepage */
+.homepage-container
+{
+  margin: 1%;
+}
+
+.menu-download
+{
+  float: left;
+  width: 40%;
+  background-color:white;
+}
+
+.menu-download a
+{
+  margin-left: 5%;
+}
+
+.menu-download a:hover
+{
+  color: red;
+}
+
+.menu-download img
+{
+  width: 100%;
+  height: 80vh;
+}
+
+
+.homepage-description
+{
+  float: right;
+  width: 55%;
+ padding: 1%;
+ margin-top: 2%;
+ background-color: antiquewhite;
+}
+
+.reviews {
+	background-color: #fff;
+  float: right;
+  width: 55%;
+  margin-top: 1%;
+  padding: 1%;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+	margin-bottom: 20px;
+  text-align: center;
+}
+
+.review {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.review-content
+{
+  border: 1px solid black;
+  margin-left: 1%;
+  padding: 5px;
+  
+}
+.review-content h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.review-content p {
+	font-size: 14px;
+	line-height: 1.6;
+	margin: 0;
+}
